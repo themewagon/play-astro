@@ -17,22 +17,22 @@ const footerLinks = [
     links: [
       {
         name: 'Home',
-        href: '/',
+        href: '#!',
         isExternal: false,
       },
       {
         name: 'Features',
-        href: '/',
+        href: '#!',
         isExternal: false,
       },
       {
         name: 'About',
-        href: '/',
+        href: '#!',
         isExternal: false,
       },
       {
         name: 'Testimonial',
-        href: '/',
+        href: '#!',
         isExternal: false,
       },
     ],
@@ -42,22 +42,22 @@ const footerLinks = [
     links: [
       {
         name: 'How it works',
-        href: '/',
+        href: '#!',
         isExternal: false,
       },
       {
         name: 'Privacy policy',
-        href: '/',
+        href: '#!',
         isExternal: false,
       },
       {
         name: 'Terms of Service',
-        href: '/',
+        href: '#!',
         isExternal: false,
       },
       {
         name: 'Refund policy',
-        href: '/',
+        href: '#!',
         isExternal: false,
       },
     ],
@@ -104,7 +104,7 @@ const footerLinks = [
       <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
         <div class="mb-10 w-full">
           <a
-            href="/"
+            href="/play-astro"
             class="mb-6 inline-block max-w-[160px]"
           >
             <img
@@ -229,7 +229,7 @@ const footerLinks = [
             {
               publishedBlogEntries.slice(0, 2).map((blogPostEntry, index) => (
                 <li>
-                  <a class="group flex items-center gap-[22px]" href={`/blog/${blogPostEntry.slug}`}>
+                  <a class="group flex items-center gap-[22px]" href={`/play-astro/blog/${blogPostEntry.slug}`}>
                     <div class="overflow-hidden rounded max-w-[70px] w-full max-h-12 h-full">
                       <img
                         src={blogPostEntry.data.image.src}
